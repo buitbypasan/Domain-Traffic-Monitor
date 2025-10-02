@@ -1,0 +1,9 @@
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; }
+.bg-gray-50 { background-color: #F9FAFB }
+.bg-white { background-color: #FFFFFF }
+.rounded { border-radius: 8px }
+.p-4 { padding: 1rem }
+.p-2 { padding: 0.5rem }
+.mb-6 { margin-bottom: 1.5rem }
+.text-2xl { font-size: 1.5rem }
+.font-bold { font-weight: 700 }

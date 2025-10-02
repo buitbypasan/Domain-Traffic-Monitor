@@ -261,4 +261,27 @@ Tell me which one you'd like and I'll scaffold it out.
 
 ---
 
-*End of blueprint.*
+# Domain Traffic Monitor (MVP)
+
+## Quick start (Docker)
+
+1. docker compose up --build
+2. Open http://localhost:3000
+3. Dashboard shows counts. Use Live Tail to generate or view events.
+
+## Development (without Docker)
+
+### Backend
+cd backend
+npm install
+npm run dev
+
+### Frontend
+cd frontend
+npm install
+npm run dev
+
+## Notes
+- Backend uses SQLite for lightweight local development (better-sqlite3).
+- Frontend is a Vite React app.
+
